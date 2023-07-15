@@ -30,11 +30,11 @@ const OrderTable = ({ orders }) => {
                         <TableHead sx={{ position: 'sticky', top: 0 }}>
                             <TableRow>
                                 <TableCell />
-                                <TableCell sx={{ color: "#1976d2", fontWeight: 'bold' }}>User Name</TableCell>
-                                <TableCell sx={{ color: "#1976d2", fontWeight: 'bold' }}>Email</TableCell>
-                                <TableCell sx={{ color: "#1976d2", fontWeight: 'bold' }}>Phone Number</TableCell>
-                                <TableCell sx={{ color: "#1976d2", fontWeight: 'bold' }}>Total Amount</TableCell>
-                                <TableCell sx={{ color: "#1976d2", fontWeight: 'bold' }}>Order Created Date</TableCell>
+                                <TableCell sx={{ color: "##6d3402", fontWeight: 'bold' }}>User Name</TableCell>
+                                <TableCell sx={{ color: "##6d3402", fontWeight: 'bold' }}>Email</TableCell>
+                                <TableCell sx={{ color: "##6d3402", fontWeight: 'bold' }}>Phone Number</TableCell>
+                                <TableCell sx={{ color: "##6d3402", fontWeight: 'bold' }}>Total Amount</TableCell>
+                                <TableCell sx={{ color: "##6d3402", fontWeight: 'bold' }}>Order Created Date</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
@@ -84,11 +84,11 @@ const OrderTable = ({ orders }) => {
                                                     <Table size="small" aria-label="purchases">
                                                         <TableHead>
                                                             <TableRow>
-                                                                <TableCell align="left" sx={{ color: "#1976d2", fontWeight: 'bold' }}>Product Name</TableCell>
-                                                                <TableCell align="left" sx={{ color: "#1976d2", fontWeight: 'bold' }}>Image</TableCell>
-                                                                <TableCell align="left" sx={{ color: "#1976d2", fontWeight: 'bold' }}>Price</TableCell>
-                                                                <TableCell align="left" sx={{ color: "#1976d2", fontWeight: 'bold' }}>Quantity</TableCell>
-                                                                <TableCell align="left" sx={{ color: "#1976d2", fontWeight: 'bold' }}>Rating</TableCell>
+                                                                <TableCell align="left" sx={{ color: "##6d3402", fontWeight: 'bold' }}>Product Name</TableCell>
+                                                                <TableCell align="left" sx={{ color: "##6d3402", fontWeight: 'bold' }}>Image</TableCell>
+                                                                <TableCell align="left" sx={{ color: "##6d3402", fontWeight: 'bold' }}>Price</TableCell>
+                                                                <TableCell align="left" sx={{ color: "##6d3402", fontWeight: 'bold' }}>Quantity</TableCell>
+                                                                <TableCell align="left" sx={{ color: "##6d3402", fontWeight: 'bold' }}>Rating</TableCell>
                                                             </TableRow>
                                                         </TableHead>
                                                         <TableBody>

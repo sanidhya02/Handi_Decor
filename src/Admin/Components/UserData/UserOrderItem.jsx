@@ -17,7 +17,7 @@ const UserOrderItem = ({ commonGetRequest, id }) => {
                 <Typography variant='h6' textAlign="center">User not order any thing yet</Typography>
                 :
                 <>
-                    <Typography variant='h6' textAlign='center' >Total Amount Spend  <span style={{color:"#1976d2"}}>₹{total} </span> </Typography>
+                    <Typography variant='h6' textAlign='center' >Total Amount Spend  <span style={{color:"##6d3402"}}>₹{total} </span> </Typography>
                     <Box>
                         <Box className='similarProduct' sx={{ display: 'flex', overflowX: 'auto',justifyContent:'center', marginBottom: 10 }}>
                             {

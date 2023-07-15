@@ -198,7 +198,7 @@ const ProductDetail = () => {
                             <Chip
                                 label={product.price > 1000 ? "Upto 9% off" : "Upto 38% off"}
                                 variant="outlined"
-                                sx={{ background: '#1976d2', color: 'white', width: '150px', fontWeight: 'bold' }}
+                                sx={{ background: '##6d3402', color: 'white', width: '150px', fontWeight: 'bold' }}
                                 avatar={<TbDiscount2 color='white' />}
 
 

@@ -78,7 +78,7 @@ const AdminLogin = () => {
           alignItems: 'center',
         }}
       >
-        <Avatar sx={{ m: 1, bgcolor: '#1976d2' }}>
+        <Avatar sx={{ m: 1, bgcolor: '##6d3402' }}>
           <MdLockOutline />
         </Avatar>
         <Typography component="h1" variant="h5">
@@ -139,13 +139,13 @@ const AdminLogin = () => {
           </Button>
           <Grid container>
             <Grid item xs>
-              <Link to="/forgotpassword" variant="body2" style={{ color: '#1976d2' }}>
+              <Link to="/forgotpassword" variant="body2" style={{ color: '##6d3402' }}>
                 Forgot password?
               </Link>
             </Grid>
             <Grid item>
               <Link to="/admin/register" variant="body2" >
-                Don't have an account?<span style={{ color: '#1976d2' }}> Sign Up</span>
+                Don't have an account?<span style={{ color: '##6d3402' }}> Sign Up</span>
               </Link>
             </Grid>
           </Grid>

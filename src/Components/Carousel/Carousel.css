@@ -1,0 +1,100 @@
+/* .carousel-container {
+    position: relative;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .left-button {
+    left: 1rem;
+  }
+  
+  .right-button {
+    right: 1rem;
+  }
+
+  .item img {
+    max-width: 100%;
+    max-height: 100%;
+  } */
+@media (max-width: 768px) {
+    .carousel-button {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .left-button,
+    .right-button {
+        top: auto;
+        bottom: 1rem;
+        transform: translateY(0);
+        font-size: 1.2rem;
+    }
+
+    .left-button {
+        left: 0.5rem;
+    }
+
+    .right-button {
+        right: 0.5rem;
+    }
+}
+
+.carousel-container {
+    position: relative;
+  }
+  
+  .carousel-buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .left-button {
+    left: 1rem;
+  }
+  
+  .right-button {
+    right: 1rem;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .carousel-image {
+    width: 100%;
+    height: 300px; /* Adjust the desired height for the images */
+    object-fit: cover; /* Adjust the object-fit value as needed */
+  }

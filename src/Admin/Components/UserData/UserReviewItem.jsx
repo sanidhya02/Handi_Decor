@@ -21,7 +21,7 @@ const UserReviewItem = ({ commonGetRequest, id }) => {
                         <Box margin="30px 0">
                             <CommentCard userReview={review} key={review._id} />
                             <Link to={`/Detail/type/${review.productId.type}/${review.productId._id}`} key={review._id} style={{
-                                color: "#1976d2"
+                                color: "##6d3402"
                             }}>
                                 <Typography textAlign="center" sx={{ color: "#1976d" }} >Go to that product</Typography>  </Link>
                         </Box>

@@ -173,7 +173,7 @@ const UpdateDetails = () => {
     return (
         <>
             <Container sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginBottom: 10 }}>
-                <Typography variant='h6' sx={{ margin: '30px 0', fontWeight: 'bold', color: '#1976d2' }}>Personal Information</Typography>
+                <Typography variant='h6' sx={{ margin: '30px 0', fontWeight: 'bold', color: '##6d3402' }}>Personal Information</Typography>
                 <form noValidate autoComplete="off" className={styles.checkout_form} onSubmit={handleSubmit} >
                     <Grid container spacing={2}>
                         <Grid item xs={12} sm={6}>
@@ -207,7 +207,7 @@ const UpdateDetails = () => {
                     </Container>
                 </form >
 
-                <Typography variant='h6' sx={{ margin: '20px 0', fontWeight: 'bold', color: '#1976d2' }}>Reset Password</Typography>
+                <Typography variant='h6' sx={{ margin: '20px 0', fontWeight: 'bold', color: '##6d3402' }}>Reset Password</Typography>
                 <form onSubmit={handleResetPassword}>
                     <Grid container spacing={2}>
                         <Grid item xs={12} >

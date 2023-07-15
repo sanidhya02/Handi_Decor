@@ -90,7 +90,7 @@ const Register = () => {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '#1976d2' }}>
+          <Avatar sx={{ m: 1, bgcolor: '##6d3402' }}>
             <MdLockOutline />
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -186,7 +186,7 @@ const Register = () => {
             <Grid container justifyContent="flex-end">
               <Grid item>
                 Already have an account?
-                <Link to='/login' style={{ color: '#1976d2', marginLeft: 3 }}>
+                <Link to='/login' style={{ color: '##6d3402', marginLeft: 3 }}>
                   Sign in
                 </Link>
               </Grid>

@@ -27,21 +27,21 @@ const DesktopNavigation = () => {
       <nav className='nav'>
         <div className="logo">
           <Link to='/'>
-            <span >Shop It</span>
+          <Typography variant="h5" style={{ fontFamily: 'Verdana, sans-serif',fontWeight: 'bold' ,color:"#6d3402"}}>HANDI DECOR</Typography>
           </Link>
         </div>
         <div className="nav-items">
           <ul className="nav-items">
             <li className="nav-links">
               <NavLink to='/'>
-                <span className='nav-icon-span'>  Home</span>
+                <span className='nav-icon-span' >  Home</span>
               </NavLink>
             </li>
-            {/* <li className="nav-links">
+            <li className="nav-links">
               <NavLink to='/contact'>
                 <span className='nav-icon-span'>  Contact Us</span>
               </NavLink>
-            </li> */}
+            </li>
 
             <li className="nav-links">
               <Tooltip title='Cart'>

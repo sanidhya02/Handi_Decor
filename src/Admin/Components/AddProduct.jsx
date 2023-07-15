@@ -115,7 +115,7 @@ const AddProduct = ({ getProductInfo, data }) => {
     return (
         <>
             <Box sx={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', margin: "20px 0" }} >
-                <Typography variant='h6' textAlign='center' color="#1976d2" fontWeight="bold">Add new product </Typography>
+                <Typography variant='h6' textAlign='center' color="##6d3402" fontWeight="bold">Add new product </Typography>
                 <Button variant='contained' endIcon={<MdProductionQuantityLimits />} onClick={handleClickOpen}>Add</Button>
             </Box>
             <Divider sx={{ mb: 5 }} />
@@ -124,7 +124,7 @@ const AddProduct = ({ getProductInfo, data }) => {
                 onClose={handleClose}
                 keepMounted
                 TransitionComponent={Transition}>
-                <DialogTitle sx={{ textAlign: "center", fontWeight: 'bold', color: "#1976d2" }}> Add new product</DialogTitle>
+                <DialogTitle sx={{ textAlign: "center", fontWeight: 'bold', color: "##6d3402" }}> Add new product</DialogTitle>
                 <DialogContent>
                     <Box sx={{ mt: 2 }}>
                         <form onSubmit={handleSubmit}>

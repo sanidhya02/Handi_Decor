@@ -116,14 +116,14 @@ const Cart = () => {
             <CssBaseline />
             <Container fixed maxWidth >
 
-                <Typography variant='h3' sx={{ textAlign: 'center', marginTop: 10, color: '#1976d2', fontWeight: 'bold' }}>Cart</Typography>
+                <Typography variant='h3' sx={{ textAlign: 'center', marginTop: 10, color: '##6d3402', fontWeight: 'bold' }}>Cart</Typography>
                 {
                     setProceed &&
                     cart.length <= 0 &&
                     <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <div className="main-card">
                             <img src={EmptyCart} alt="Empty_cart" className="empty-cart-img" />
-                            <Typography variant='h6' sx={{ textAlign: 'center', color: '#1976d2', fontWeight: 'bold' }}>Your Cart is Empty</Typography>
+                            <Typography variant='h6' sx={{ textAlign: 'center', color: '##6d3402', fontWeight: 'bold' }}>Your Cart is Empty</Typography>
                         </div>
                     </Box>
 

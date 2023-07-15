@@ -43,7 +43,7 @@ const SearchBar = () => {
             <TextField
                 id="search"
                 type="search"
-                label="Search Products"
+                label="Search for Products"
 
                 value={searchTerm}
                 onChange={handleSearch}
@@ -51,7 +51,7 @@ const SearchBar = () => {
                 InputProps={{
                     endAdornment: (
                         <InputAdornment position="end">
-                            <AiOutlineSearch />
+                            <AiOutlineSearch size={24} style={{color:"#6d3402"}}/>
                         </InputAdornment>
                     ),
                 }}

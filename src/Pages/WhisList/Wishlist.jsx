@@ -60,14 +60,14 @@ const Wishlist = () => {
 
     return (
         <>
-            <Typography variant='h3' sx={{ textAlign: 'center', margin: "10px 0 ", color: '#1976d2', fontWeight: 'bold' }}>Wishlist</Typography>
+            <Typography variant='h3' sx={{ textAlign: 'center', margin: "10px 0 ", color: '##6d3402', fontWeight: 'bold' }}>Wishlist</Typography>
             {setProceed &&
 
                 wishlistData.length <= 0 ?
                 (<Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div className="main-card">
                         <img src={EmptyCart} alt="Empty_cart" className="empty-cart-img" />
-                        <Typography variant='h6' sx={{ textAlign: 'center', color: '#1976d2', fontWeight: 'bold' }}>No products in wishlist</Typography>
+                        <Typography variant='h6' sx={{ textAlign: 'center', color: '##6d3402', fontWeight: 'bold' }}>No products in wishlist</Typography>
                     </div>
                 </Box>)
                 : (<Container maxWidth='xl' style={{ display: "flex", justifyContent: 'center', flexWrap: "wrap", paddingBottom: 20 }}>

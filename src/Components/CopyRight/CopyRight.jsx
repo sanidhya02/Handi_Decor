@@ -5,7 +5,7 @@ const CopyRight = (props) => {
     return (
         <a href='https://saurabhkhatmode.netlify.app/' target='_blank' rel='noreferrer' >
 
-            <Typography variant="body1" fontWeight="bold" color="text.secondary" align="center" {...props} style={{ color: '#1976d2',  }}>
+            <Typography variant="body1" fontWeight="bold" color="text.secondary" align="center" {...props} style={{ color: '##6d3402',  }}>
                 {' '}
                 {new Date().getFullYear()}
                 {/* {'.'} */}

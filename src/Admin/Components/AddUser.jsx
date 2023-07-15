@@ -73,7 +73,7 @@ const AddUser = ({ getUser }) => {
     return (
         <>
             <Box sx={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', margin: "20px 0" }} >
-                <Typography variant='h6' textAlign='center' color="#1976d2" fontWeight="bold">Add new user
+                <Typography variant='h6' textAlign='center' color="##6d3402" fontWeight="bold">Add new user
                 </Typography>
                 <Button variant='contained' endIcon={<MdPersonAddAlt1 />} onClick={handleClickOpen}>Add</Button>
             </Box>
@@ -83,7 +83,7 @@ const AddUser = ({ getUser }) => {
                 onClose={handleClose}
                 keepMounted
                 TransitionComponent={Transition}>
-                <DialogTitle sx={{ textAlign: "center", fontWeight: 'bold', color: "#1976d2" }}> Add new user</DialogTitle>
+                <DialogTitle sx={{ textAlign: "center", fontWeight: 'bold', color: "##6d3402" }}> Add new user</DialogTitle>
                 <DialogContent>
                     <Box onSubmit={handleSubmit} sx={{ mt: 2 }}>
                         <Grid container spacing={2}>
