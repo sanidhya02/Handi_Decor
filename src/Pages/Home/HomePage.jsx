@@ -37,7 +37,7 @@ const HomePage = () => {
          <SearchBar />
             <Container maxWidth='xl' style={{ display: 'flex', justifyContent: "center", padding: 0, flexDirection: "column", marginBottom: 70 }}>
                 <Box padding={1} >
-                 
+                <Typography variant="h5" style={{ fontFamily: 'Verdana, sans-serif',fontWeight: 'bold' ,color:"#6d3402"}}>New Arrivals</Typography>
                     <Carousel />
                 </Box>
                 <Container style={{ marginTop: 90, display: "flex", justifyContent: 'center' }}>
